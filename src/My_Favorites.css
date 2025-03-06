@@ -1,0 +1,1526 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1632px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 1440px;
+    height: 220px;
+    margin: 0 0 0 0;
+    background: #a07ee7;
+    z-index: 88;
+    overflow: visible auto;
+  }
+  .flex-row {
+    position: relative;
+    width: 1348.188px;
+    height: 84.722px;
+    margin: 26.223px 0 0 76.947px;
+    z-index: 118;
+  }
+  .pic {
+    position: absolute;
+    width: 330.77px;
+    height: 84.722px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/image/2025-03-06/7f40f606-1fab-417e-8f85-a6dd79b2ca8a.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 113;
+  }
+  .regroup {
+    position: absolute;
+    width: 202.734px;
+    height: 84.722px;
+    top: 0;
+    left: 846.453px;
+    z-index: 103;
+  }
+  .rectangle-1 {
+    position: absolute;
+    width: 52.098px;
+    height: 56.481px;
+    top: 24.207px;
+    left: 0;
+    background: #ffffff;
+    z-index: 97;
+    border-radius: 8px;
+  }
+  .shopping-cart-dp {
+    position: relative;
+    width: 22.328px;
+    height: 24.206px;
+    margin: 16.137px 0 0 14.885px;
+    background: url(https://static.codia.ai/image/2025-03-06/8d83f889-01af-429a-b216-82b4e7e74396.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 98;
+    overflow: hidden;
+  }
+  .rectangle-2 {
+    position: absolute;
+    width: 52.098px;
+    height: 56.481px;
+    top: 24.207px;
+    left: 76.21px;
+    background: #ffffff;
+    z-index: 100;
+    border-radius: 8px;
+  }
+  .favorite-dp {
+    position: relative;
+    width: 22.328px;
+    height: 24.206px;
+    margin: 18.155px 0 0 14.885px;
+    background: url(https://static.codia.ai/image/2025-03-06/b6deeb6f-86a7-4376-96bc-166368399df7.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 101;
+    overflow: hidden;
+  }
+  .rectangle-3 {
+    position: absolute;
+    width: 52.098px;
+    height: 56.481px;
+    top: 24.207px;
+    left: 150.636px;
+    background: #ffffff;
+    z-index: 103;
+    border-radius: 8px;
+  }
+  .profile {
+    position: absolute;
+    width: 22.328px;
+    height: 24.206px;
+    top: 16.137px;
+    left: 14.885px;
+    background: url(./assets/images/3a1eba93-0860-4213-97f5-9705ca72d241.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 104;
+  }
+  .sentiment-satisfied-dp {
+    position: absolute;
+    width: 22.328px;
+    height: 24.206px;
+    top: 18.155px;
+    left: 14.885px;
+    background: url(https://static.codia.ai/image/2025-03-06/8949848a-9448-457e-8ae6-87d845365344.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 105;
+    overflow: hidden;
+  }
+  .rectangle-4 {
+    position: absolute;
+    width: 52.134px;
+    height: 56px;
+    top: 23.777px;
+    left: 1296.053px;
+    background: #ffffff;
+    z-index: 118;
+    border-radius: 8px;
+  }
+  .logout-dp {
+    position: relative;
+    width: 27px;
+    height: 24px;
+    margin: 16px 0 0 15px;
+    background: url(https://static.codia.ai/image/2025-03-06/00112ab8-eab5-4328-897f-22b6b129fc5f.png)
+      no-repeat center;
+    background-size: contain;
+    z-index: 120;
+    overflow: visible auto;
+  }
+  .profile-5 {
+    position: relative;
+    width: 22.343px;
+    height: 24px;
+    margin: 0 0 0 -0.1px;
+    background: url(./assets/images/3619e804-90b9-469f-8243-4fed28c3cd69.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 119;
+  }
+  .rectangle-6 {
+    position: absolute;
+    width: 370.269px;
+    height: 56.481px;
+    top: 24.207px;
+    left: 433.699px;
+    background: #ffffff;
+    z-index: 91;
+    border-radius: 8px;
+  }
+  .search-dp {
+    position: relative;
+    width: 29.77px;
+    height: 32.275px;
+    margin: 12.103px 0 0 330.265px;
+    background: url(https://static.codia.ai/image/2025-03-06/5eabe61b-0cba-4275-b462-abedab2b9778.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 92;
+    overflow: hidden;
+  }
+  .rectangle-7 {
+    position: absolute;
+    width: 196.863px;
+    height: 56.481px;
+    top: 24.207px;
+    left: 1089.243px;
+    background: #ffffff;
+    z-index: 94;
+    border-radius: 8px;
+  }
+  .profile-circle {
+    position: absolute;
+    width: 47.712px;
+    height: 45.891px;
+    top: 50%;
+    left: 12.991px;
+    background: url(https://static.codia.ai/image/2025-03-06/5a77f321-46a1-46c6-aa17-45d8af8f8fa5.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    transform: translate(0, -50.55%);
+    z-index: 116;
+  }
+  .ines-dahmani {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24.206px;
+    top: 14.121px;
+    left: 60.958px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.206px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 95;
+  }
+  .flex-row-d {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 845.412px;
+    height: 29.249px;
+    margin: 40.344px 0 0 79.944px;
+    z-index: 112;
+  }
+  .home {
+    flex-shrink: 0;
+    position: relative;
+    height: 29.249px;
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.249px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 109;
+  }
+  .our-boxes {
+    flex-shrink: 0;
+    position: relative;
+    height: 29.249px;
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.249px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 107;
+  }
+  .promotions {
+    flex-shrink: 0;
+    position: relative;
+    height: 29.249px;
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.249px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 110;
+  }
+  .our-categories {
+    flex-shrink: 0;
+    position: relative;
+    height: 29.249px;
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.249px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 111;
+  }
+  .blog {
+    flex-shrink: 0;
+    position: relative;
+    height: 29.249px;
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.249px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 112;
+  }
+  .my-favorites-8 {
+    position: relative;
+    width: 1065px;
+    height: 153px;
+    margin: 37px 0 0 178px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.091px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+  }
+  .my-favorites-9 {
+    position: relative;
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.091px;
+    text-align: center;
+  }
+  .curly-hair-products {
+    position: relative;
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 58.091px;
+    text-align: center;
+  }
+  .flex-row-a {
+    position: relative;
+    width: 1449px;
+    height: 954px;
+    margin: 25px 0 0 75px;
+    z-index: 124;
+  }
+  .image {
+    position: absolute;
+    width: 475px;
+    height: 501px;
+    top: 0;
+    left: 102px;
+    z-index: 124;
+  }
+  .image-b {
+    position: absolute;
+    width: 475px;
+    height: 501px;
+    top: 0;
+    left: 538px;
+    z-index: 4;
+  }
+  .border {
+    position: absolute;
+    top: 12px;
+    right: 1032px;
+    bottom: 532px;
+    left: 0;
+    font-size: 0px;
+    background: #fcf7ff;
+    border: 1px solid #c3b1e1;
+    z-index: 121;
+    border-radius: 12px;
+  }
+  .moisture-rich-conditioner {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 233px 0 0 17px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 126;
+  }
+  .price {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 10px 0 0 17px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.875px;
+    font-weight: 700;
+    line-height: 16.792px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 127;
+  }
+  .button {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 10px 0 0 41px;
+    background: #ffffff;
+    border: 1px solid #a07ee7;
+    z-index: 128;
+    border-radius: 10px;
+  }
+  .view-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 16px;
+    left: -1px;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 129;
+  }
+  .button-c {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 10px 0 0 42px;
+    background: #a07ee7;
+    z-index: 130;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 17px;
+    left: 0;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 131;
+  }
+  .button-d {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    right: 8px;
+    background: #a07ee7;
+    z-index: 132;
+    border-radius: 12px;
+  }
+  .close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    top: 4.5px;
+    right: 7.91px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.300000190734863px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 133;
+  }
+  .image-e {
+    position: absolute;
+    width: 374px;
+    height: 207px;
+    top: 12px;
+    left: 25px;
+    z-index: 64;
+  }
+  .background {
+    position: absolute;
+    height: 200px;
+    top: 20px;
+    right: 15px;
+    left: 17px;
+    background: #f5f5f5;
+    z-index: 122;
+  }
+  .background-f {
+    position: absolute;
+    height: 200px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: url("../public/images/product1.png")
+      no-repeat center;
+    background-size: cover;
+    z-index: 125;
+  }
+  .icon {
+    position: absolute;
+    width: 6.04px;
+    height: 17px;
+    top: 91px;
+    left: 164.08px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9.682px;
+    background: url(https://static.codia.ai/image/2025-03-06/edd35a66-9134-4fe6-acb2-61ce488f3932.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 123;
+  }
+  .border-10 {
+    position: absolute;
+    top: 12px;
+    right: 596px;
+    bottom: 532px;
+    left: 436px;
+    font-size: 0px;
+    background: #fcf7ff;
+    border: 1px solid #c3b1e1;
+    z-index: 1;
+    border-radius: 12px;
+  }
+  .moisture-rich-conditioner-11 {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 233px 0 0 17px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .price-12 {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 10px 0 0 17px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.875px;
+    font-weight: 700;
+    line-height: 16.792px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .button-13 {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 10px 0 0 41px;
+    background: #ffffff;
+    border: 1px solid #a07ee7;
+    z-index: 8;
+    border-radius: 10px;
+  }
+  .text-10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 16px;
+    left: -1px;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .button-14 {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 10px 0 0 42px;
+    background: #a07ee7;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .add-to-cart-15 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 17px;
+    left: 0;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .button-16 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    right: 8px;
+    background: #a07ee7;
+    z-index: 12;
+    border-radius: 12px;
+  }
+  .close-17 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    top: 4.5px;
+    right: 7.91px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.300000190734863px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .background-18 {
+    position: absolute;
+    height: 200px;
+    top: 20px;
+    right: 15px;
+    left: 17px;
+    background: #f5f5f5;
+    z-index: 2;
+  }
+  .background-19 {
+    position: absolute;
+    height: 200px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: url(../public/images/product2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 5;
+  }
+  .lotion {
+    position: absolute;
+    width: 6.04px;
+    height: 17px;
+    top: 91px;
+    left: 164.08px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9.682px;
+    background: url(https://static.codia.ai/image/2025-03-06/05943212-0b6f-4ea2-bbfb-f085948f4295.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+  }
+  .border-1a {
+    position: absolute;
+    top: 12px;
+    right: 159px;
+    bottom: 532px;
+    left: 873px;
+    font-size: 0px;
+    background: #fcf7ff;
+    border: 1px solid #c3b1e1;
+    z-index: 27;
+    border-radius: 12px;
+  }
+  .heading-moisturizing-cream {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 233px 0 0 17px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 31;
+  }
+  .price-1b {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 10px 0 0 17px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.875px;
+    font-weight: 700;
+    line-height: 16.792px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 32;
+  }
+  .button-1c {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 10px 0 0 50px;
+    background: #ffffff;
+    border: 1px solid #a07ee7;
+    z-index: 33;
+    border-radius: 10px;
+  }
+  .view-details-1d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 16px;
+    left: -1px;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 34;
+  }
+  .button-1e {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 8px 0 0 48px;
+    background: #a07ee7;
+    z-index: 35;
+    border-radius: 10px;
+  }
+  .add-to-cart-1f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 17px;
+    left: 0;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 36;
+  }
+  .button-20 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    right: 8px;
+    background: #a07ee7;
+    z-index: 37;
+    border-radius: 12px;
+  }
+  .close-21 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    top: 4.5px;
+    right: 7.91px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.300000190734863px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  .background-22 {
+    position: absolute;
+    height: 200px;
+    top: 16px;
+    right: 16px;
+    left: 16px;
+    background: #f5f5f5;
+    z-index: 28;
+  }
+  .image-23 {
+    position: absolute;
+    width: 383px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background: url("../public/images/image2.png")
+      no-repeat center;
+    background-size: cover;
+    z-index: 30;
+  }
+  .image-24 {
+    position: absolute;
+    width: 385px;
+    height: 192px;
+    top: 24px;
+    left: 22px;
+    z-index: 39;
+  }
+  .lotion-25 {
+    position: absolute;
+    width: 6.04px;
+    height: 17px;
+    top: 83px;
+    left: 158.08px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9.682px;
+    background: url(https://static.codia.ai/image/2025-03-06/d34d2166-4516-49b7-9a41-1a2e0302f43e.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 29;
+  }
+  .rectangle-26 {
+    position: absolute;
+    width: 371px;
+    height: 389px;
+    top: 451px;
+    left: 42px;
+    z-index: 44;
+    border-radius: 10px;
+  }
+  .button-27 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 27px 0 0 342px;
+    background: #a07ee7;
+    z-index: 51;
+    border-radius: 12px;
+  }
+  .close-28 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    top: 4.5px;
+    right: 7.91px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.300000190734863px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 52;
+  }
+  .button-29 {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 254px 0 0 0;
+    background: #ffffff;
+    border: 1px solid #a07ee7;
+    z-index: 47;
+    border-radius: 10px;
+  }
+  .view-details-2a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 16px;
+    left: -1px;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 48;
+  }
+  .image-2b {
+    position: absolute;
+    width: 475px;
+    height: 501px;
+    top: 453px;
+    left: 974px;
+    z-index: 17;
+  }
+  .border-2c {
+    position: absolute;
+    top: 469px;
+    right: 1032px;
+    bottom: 75px;
+    left: 0;
+    background: #fcf7ff;
+    border: 1px solid #c3b1e1;
+    z-index: 40;
+    border-radius: 12px;
+  }
+  .background-2d {
+    position: relative;
+    width: 383px;
+    height: 200px;
+    margin: 17px 0 0 17px;
+    background: #f5f5f5;
+    z-index: 41;
+    overflow: visible auto;
+  }
+  .image-2e {
+    position: relative;
+    width: 375px;
+    height: 200px;
+    margin: 0 0 0 4px;
+    background: url("../public/images/product5.png")
+      no-repeat center;
+    background-size: cover;
+    z-index: 43;
+    overflow: visible auto;
+  }
+  .image-2f {
+    position: relative;
+    width: 359px;
+    height: 171px;
+    margin: 16px 0 0 12px;
+    z-index: 53;
+  }
+  .product-info {
+    position: absolute;
+    width: 6.04px;
+    height: 17px;
+    top: 75px;
+    left: 148.08px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9.682px;
+    background: url(https://static.codia.ai/image/2025-03-06/82f41327-9be5-48aa-a657-6232bcdff88c.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 42;
+  }
+  .heading-moisture-rich-conditioner {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 17px 0 0 17px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 45;
+  }
+  .price-30 {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 10px 0 0 17px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 46;
+  }
+  .button-31 {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 65px 0 0 42px;
+    background: #a07ee7;
+    z-index: 49;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .add-to-cart-32 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 15px;
+    left: 0;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 50;
+  }
+  .border-33 {
+    position: absolute;
+    top: 469px;
+    right: 593px;
+    bottom: 75px;
+    left: 439px;
+    font-size: 0px;
+    background: #fcf7ff;
+    border: 1px solid #c3b1e1;
+    z-index: 54;
+    border-radius: 12px;
+  }
+  .heading-moisture-rich-conditioner-34 {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 233px 0 0 17px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 56;
+  }
+  .price-35 {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 10px 0 0 17px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 57;
+  }
+  .button-36 {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 9px 0 0 42px;
+    background: #ffffff;
+    border: 1px solid #a07ee7;
+    z-index: 58;
+    border-radius: 10px;
+  }
+  .view-details-37 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 16px;
+    left: -1px;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 59;
+  }
+  .button-38 {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 9px 0 0 42px;
+    background: #a07ee7;
+    z-index: 60;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .add-to-cart-39 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 16px;
+    left: 0;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 61;
+  }
+  .button-3a {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    right: 8px;
+    background: #a07ee7;
+    z-index: 62;
+    border-radius: 12px;
+  }
+  .close-3b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    top: 4.5px;
+    right: 7.91px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.300000190734863px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 63;
+  }
+  .background-3c {
+    position: absolute;
+    height: 200px;
+    top: 16px;
+    right: 16px;
+    left: 16px;
+    background: url("../public/images/image1.png")
+      no-repeat center;
+    background-size: cover;
+    z-index: 55;
+  }
+  .border-3d {
+    position: absolute;
+    top: 469px;
+    right: 159px;
+    bottom: 75px;
+    left: 873px;
+    font-size: 0px;
+    background: #fcf7ff;
+    border: 1px solid #c3b1e1;
+    z-index: 14;
+    border-radius: 12px;
+  }
+  .heading-conditioner-shampoo-people {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 233px 0 0 17px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+  }
+  .price-3e {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 10px 0 0 17px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.875px;
+    font-weight: 700;
+    line-height: 16.792px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  .button-3f {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 9px 0 0 34px;
+    background: #ffffff;
+    border: 1px solid #a07ee7;
+    z-index: 21;
+    border-radius: 10px;
+  }
+  .view-details-40 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 9px;
+    left: -1px;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 22;
+  }
+  .button-41 {
+    position: relative;
+    width: 334px;
+    height: 48px;
+    margin: 9px 0 0 34px;
+    background: #a07ee7;
+    z-index: 23;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .add-to-cart-42 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 334px;
+    height: 15px;
+    top: 17px;
+    left: 0;
+    color: #000000;
+    font-family: Source Code Pro, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 24;
+  }
+  .button-43 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    right: 8px;
+    background: #a07ee7;
+    z-index: 25;
+    border-radius: 12px;
+  }
+  .close-44 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    top: 4.5px;
+    right: 7.91px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 13.300000190734863px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 26;
+  }
+  .background-45 {
+    position: absolute;
+    height: 200px;
+    top: 16px;
+    right: 16px;
+    left: 16px;
+    background: #f5f5f5;
+    z-index: 15;
+  }
+  .background-46 {
+    position: absolute;
+    height: 200px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: url("../public/images/product6.png")
+      no-repeat center;
+    background-size: cover;
+    z-index: 18;
+  }
+  .emoji {
+    position: absolute;
+    width: 6.04px;
+    height: 17px;
+    top: 91px;
+    left: 164.08px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9.682px;
+    background: url(https://static.codia.ai/image/2025-03-06/84f541eb-1456-4a73-b9cc-7c3fbdd509d7.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 16;
+  }
+  .flex-row-da {
+    position: relative;
+    width: 1275px;
+    height: 150px;
+    margin: 36px 0 0 80px;
+    z-index: 81;
+  }
+  .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 198px;
+    height: 150px;
+    top: 0;
+    left: 435px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 79;
+    overflow: hidden;
+  }
+  .rectangle-47 {
+    position: absolute;
+    width: 477px;
+    height: 60.725px;
+    top: 5px;
+    left: 798px;
+    background: #ffffff;
+    z-index: 81;
+    border-radius: 8px;
+  }
+  .rectangle-48 {
+    position: absolute;
+    width: 120.57px;
+    height: 60.725px;
+    top: 0;
+    left: 356.43px;
+    background: #ffffff;
+    border-left: 2px solid #999999;
+    z-index: 82;
+    border-radius: 0 8px 8px 0;
+  }
+  .send {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 18px;
+    left: 32.57px;
+    color: #a07ee7;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 86;
+  }
+  .sms {
+    position: absolute;
+    width: 29.923px;
+    height: 29.923px;
+    top: 15.841px;
+    left: 23.762px;
+    background: #ffffff;
+    z-index: 83;
+  }
+  .sms-outline {
+    position: absolute;
+    width: 29.923px;
+    height: 29.923px;
+    top: 0;
+    left: 0;
+    background: url(https://static.codia.ai/image/2025-03-06/ef37c22f-b3dc-47e1-b9bd-f6c7fd16c86b.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 84;
+  }
+  .email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 21px;
+    top: 19px;
+    left: 73px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 85;
+  }
+  .sms-linear {
+    position: absolute;
+    width: 2.22%;
+    height: 14.77%;
+    top: 5.33%;
+    left: 0;
+    background: url(https://static.codia.ai/image/2025-03-06/a3f08827-1968-488c-bba1-8c9b9e4b8a3e.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 70;
+  }
+  .email-49 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 25px;
+    top: 8px;
+    left: 39px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 69;
+  }
+  .call {
+    position: absolute;
+    width: 28.364px;
+    height: 24px;
+    top: 45px;
+    left: 2.364px;
+    background: url(https://static.codia.ai/image/2025-03-06/36647349-f8eb-47c5-9ef7-e31dfdda2397.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 74;
+  }
+  .phone-number {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 47px;
+    left: 39px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    opacity: 0.6;
+    z-index: 72;
+  }
+  .location {
+    position: absolute;
+    width: 28.364px;
+    height: 24px;
+    top: 82px;
+    left: 0;
+    background: url(https://static.codia.ai/image/2025-03-06/34c17ab5-cde0-448a-ad0b-0cc69043d28a.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 78;
+  }
+  .address {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 25px;
+    top: 82px;
+    left: 39px;
+    color: #000000;
+    font-family: Source Sans Pro, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 76;
+  }
+  .rectangle-4a {
+    position: absolute;
+    width: 1440px;
+    height: 215px;
+    top: 1417px;
+    left: 0;
+    background: url(https://static.codia.ai/image/2025-03-06/7cf0b01b-1b84-4aaf-bfeb-f4d7cdf985b7.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 66;
+  }
+  

@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles for Currrly website */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    header nav ul li {
+        font-size: 14px;
+    }
+    
+    .hero-section {
+        flex-direction: column;
+    }
+    
+    .product-grid, .box-grid, .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid, .box-grid, .blog-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    header .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    header .search-bar {
+        width: 100%;
+    }
+}
+
+/* Custom animations */
+.product-card:hover, .box-card:hover, .blog-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Button hover effects */
+button:hover, a.button:hover {
+    opacity: 0.9;
+    transition: opacity 0.2s ease;
+}
