@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f9f0ff;
+}
+.nav-item.active {
+    border-bottom: 2px solid white;
+}
+.discount-badge {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.product-card {
+    @apply bg-white rounded-lg overflow-hidden shadow-md;
+    transition: transform 0.2s;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}

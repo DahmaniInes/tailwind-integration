@@ -10,11 +10,13 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          light: '#f3e8ff',
+                    DEFAULT: '#9370DB',
+                    dark: '#7952B3',
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: '#f13946',
+
           foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
@@ -47,9 +49,14 @@ module.exports = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        xl: '1rem',
       },
+      gray: {
+        light: "#F5F5F5",
+        DEFAULT: "#6e757a",
+    },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['Work Sans', 'sans-serif'],
       },
       fontSize: {
         'xs': '0.75rem',
