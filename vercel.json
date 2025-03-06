@@ -1,0 +1,18 @@
+{
+    "builds": [
+      {
+        "src": "public/**/*",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "src/**/*",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      { "src": "/", "dest": "/src/home/index.html" },
+      { "src": "/images/(.*)", "dest": "/public/images/$1" },
+      { "src": "/src/(.*)", "dest": "/src/$1" },
+      { "src": "/(.*)", "dest": "/public/$1" }
+    ]
+  }
