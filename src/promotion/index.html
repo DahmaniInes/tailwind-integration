@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cu.rly - Luxury Hair Collection</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="input.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-purple-400 text-white">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo text-2xl font-bold tracking-wide">
+                cu.<span class="italic">rly</span>.
+            </div>
+            <div class="search-container flex bg-white rounded-full overflow-hidden w-72">
+                <input type="text" placeholder="Search..." class="border-none py-2 px-4 flex-grow outline-none">
+                <button class="bg-white border-none px-4 cursor-pointer">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="flex gap-3 items-center">
+                <button class="icon-btn"><i class="fas fa-heart"></i></button>
+                <button class="icon-btn"><i class="fas fa-shopping-cart"></i></button>
+                <button class="icon-btn"><i class="fas fa-bell"></i></button>
+                <button class="user-btn">Dorsef</button>
+            </div>
+        </div>
+        <nav class="container mx-auto px-4 pt-2 pb-2">
+            <ul class="flex gap-8">
+                <li><a href="../home/index (1).html">Home</a></li>
+                <li><a href="#" class="nav-link">Our boxes</a></li>
+                <li><a href="#" class="nav-link active">Promotions</a></li>
+                <li><a href="#" class="nav-link">Our Categories</a></li>
+                <li><a href="#" class="nav-link">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-6">
+        <div class="text-center mb-8">
+            <h1 class="text-purple-400 mb-2 text-3xl font-bold">Luxury Hair Collection</h1>
+            <p class="text-sm text-gray-500">SPECIAL OFFERS: Up to 50% off on a selection of products</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img1.png" alt="Shine Serum">
+                    <div class="ribbon">BEST OFFER</div>
+                    <button class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-base font-medium mb-1">Shine Serum</h3>
+                    <div class="text-yellow-400 mb-2 text-sm">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="font-bold">31.50 €</span>
+                        <span class="line-through text-gray-400 text-sm">45.00 €</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="view-btn">View details</button>
+                        <button class="cart-btn" onclick="window.location.href = '../panier/index.html';">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img2.png" alt="Mask Treatment">
+                    <div class="ribbon">BEST OFFER</div>
+                    <button class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-base font-medium mb-1">Mask Treatment</h3>
+                    <div class="text-yellow-400 mb-2 text-sm">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="font-bold">31.50 €</span>
+                        <span class="line-through text-gray-400 text-sm">45.00 €</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="view-btn">View details</button>
+                        <button class="cart-btn" onclick="window.location.href = '../panier/index.html';">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img3.png" alt="Serum Brillance">
+                    <div class="ribbon">BEST OFFER</div>
+                    <button class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-base font-medium mb-1">Serum Brillance</h3>
+                    <div class="text-yellow-400 mb-2 text-sm">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="font-bold">31.50 €</span>
+                        <span class="line-through text-gray-400 text-sm">45.00 €</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="cart-btn" onclick="window.location.href = '../panier/index.html';">Add to cart</button>
+                        <button class="cart-btn">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img4.png" alt="Hair Nourishing">
+                    <div class="ribbon">BEST OFFER</div>
+                    <button class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-base font-medium mb-1">Hair Nourishing</h3>
+                    <div class="text-yellow-400 mb-2 text-sm">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="font-bold">31.50 €</span>
+                        <span class="line-through text-gray-400 text-sm">45.00 €</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="view-btn">View details</button>
+                        <button class="cart-btn" onclick="window.location.href = '../panier/index.html';">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img5.png" alt="Spray Protector">
+                    <div class="ribbon">BEST OFFER</div>
+                    <button class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-base font-medium mb-1">Spray Protector</h3>
+                    <div class="text-yellow-400 mb-2 text-sm">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="font-bold">31.50 €</span>
+                        <span class="line-through text-gray-400 text-sm">45.00 €</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="view-btn">View details</button>
+                        <button class="cart-btn">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img7.png" alt="Cream Definition">
+                    <div class="ribbon">BEST OFFER</div>
+                    <button class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-base font-medium mb-1">Cream Definition</h3>
+                    <div class="text-yellow-400 mb-2 text-sm">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="font-bold">31.50 €</span>
+                        <span class="line-through text-gray-400 text-sm">45.00 €</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="view-btn">View details</button>
+                        <button class="cart-btn">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img1.png" alt="Lotion Volume">
+                    <div class="ribbon">BEST OFFER</div>
+                    <button class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-base font-medium mb-1">Lotion Volume</h3>
+                    <div class="text-yellow-400 mb-2 text-sm">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="font-bold">31.50 €</span>
+                        <span class="line-through text-gray-400 text-sm">45.00 €</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="view-btn">View details</button>
+                        <button class="cart-btn">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img2.png" alt="Masque Parfum">
+                    <div class="ribbon">BEST OFFER</div>
+                    <button class="favorite-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-base font-medium mb-1">Masque Parfum</h3>
+                    <div class="text-yellow-400 mb-2 text-sm">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="font-bold">31.50 €</span>
+                        <span class="line-through text-gray-400 text-sm">45.00 €</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="view-btn">View details</button>
+                        <button class="cart-btn">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-purple-400 text-white py-8 mt-12">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between gap-8">
+            <div class="flex flex-col gap-4">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@curlly.com</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-phone"></i>
+                    <span>+1 (0) 123 456</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Curlly 2345</span>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="font-bold mb-4">Home</h3>
+                <ul>
+                    <li class="mb-2"><a href="#" class="hover:underline">Our Boxes</a></li>
+                    <li class="mb-2"><a href="#" class="hover:underline">Promotions</a></li>
+                    <li class="mb-2"><a href="#" class="hover:underline">Our Categories</a></li>
+                    <li class="mb-2"><a href="#" class="hover:underline">Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="flex gap-2">
+                <input type="email" placeholder="youremail@gmail.com" class="px-4 py-2 rounded border-none outline-none">
+                <button class="bg-white text-purple-400 font-bold py-2 px-4 rounded">Send</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
