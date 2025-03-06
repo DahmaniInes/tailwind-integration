@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - cu.rly</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">cu.<span>rly</span>.</div>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header-icons">
+                <button class="icon-btn"><i class="fas fa-heart"></i></button>
+                <button class="icon-btn"><i class="fas fa-shopping-cart"></i></button>
+                <button class="icon-btn"><i class="fas fa-bell"></i></button>
+                <button class="user-btn">Dorsef</button>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our boxes</a></li>
+                <li><a href="#" class="active">Promotions</a></li>
+                <li><a href="#">Our Categories</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cart-header">
+            <h1><i class="fas fa-shopping-cart"></i> Your cart</h1>
+        </div>
+
+        <div class="cart-container">
+            <div class="cart-items">
+                <div class="cart-info">
+                    <p>Shopping Cart (3 items)</p>
+                </div>
+
+                <!-- Cart Item 1 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="image1.png" alt="Curl Defining Cream">
+                    </div>
+                    <div class="item-details">
+                        <h3>Curl Defining Cream</h3>
+                        <p class="item-size">12 oz | Sulfate Free</p>
+                        <div class="item-controls">
+                            <div class="quantity-control">
+                                <button class="quantity-btn decrease">-</button>
+                                <input type="text" value="1" class="quantity-input">
+                                <button class="quantity-btn increase">+</button>
+                            </div>
+                            <button class="remove-btn">Remove</button>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <p>$24.99</p>
+                    </div>
+                </div>
+
+                <!-- Cart Item 2 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="image1.png" alt="Moisturizing Shampoo">
+                    </div>
+                    <div class="item-details">
+                        <h3>Moisturizing Shampoo</h3>
+                        <p class="item-size">8 oz | Sulfate Free</p>
+                        <div class="item-controls">
+                            <div class="quantity-control">
+                                <button class="quantity-btn decrease">-</button>
+                                <input type="text" value="2" class="quantity-input">
+                                <button class="quantity-btn increase">+</button>
+                            </div>
+                            <button class="remove-btn">Remove</button>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <p>$19.99</p>
+                    </div>
+                </div>
+
+                <!-- Cart Item 3 -->
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="image2.png" alt="Moisturizing Shampoo">
+                    </div>
+                    <div class="item-details">
+                        <h3>Moisturizing Shampoo</h3>
+                        <p class="item-size">12 oz | Sulfate Free</p>
+                        <div class="item-controls">
+                            <div class="quantity-control">
+                                <button class="quantity-btn decrease">-</button>
+                                <input type="text" value="2" class="quantity-input">
+                                <button class="quantity-btn increase">+</button>
+                            </div>
+                            <button class="remove-btn">Remove</button>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <p>$19.99</p>
+                    </div>
+                </div>
+
+                <div class="back-link">
+                    <a href="#"><i class="fas fa-arrow-left"></i> Back to products</a>
+                </div>
+            </div>
+
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-item">
+                    <span>Subtotal</span>
+                    <span>$64.97</span>
+                </div>
+                <div class="summary-item">
+                    <span>Shipping</span>
+                    <span>Free</span>
+                </div>
+                <div class="summary-item">
+                    <span>Tax</span>
+                    <span>$5.20</span>
+                </div>
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span>$70.17</span>
+                </div>
+                <div class="checkout-info">
+                    <p>Continue Shopping</p>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@curlly@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+1 (0) 123 456</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Curlly 2345</span>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Home</h3>
+                <ul>
+                    <li><a href="#">Our Boxes</a></li>
+                    <li><a href="#">Promotions</a></li>
+                    <li><a href="#">Our Categories</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <input type="email" placeholder="youremail@gmail.com">
+                <button>Send</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+</body>
+</html>
