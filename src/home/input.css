@@ -234,43 +234,69 @@ nav {
     overflow: hidden;
 }
 
-/* Products section */
+/* Our Items Section */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
     gap: 20px;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 .product-card {
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 16px; /* Bordures arrondies */
     overflow: hidden;
     box-shadow: var(--box-shadow);
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .product-image {
-    position: relative;
-    height: 200px;
+    width: 100%;
+    height: 250px; /* Hauteur des images ajustée */
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
-.favorite-btn {
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Assure que l'image soit bien visible en entier */
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+/* Boutons de wishlist et panier */
+.favorite-btn,
+.add-to-cart {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    background-color: var(--primary-light);
+    color: var(--white);
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: var(--primary-light);
-    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--transition);
 }
 
+.favorite-btn {
+    top: 10px;
+    right: 10px;
+}
+
+.add-to-cart {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Texte des produits */
 .product-info {
     padding: 15px;
     position: relative;
@@ -278,25 +304,17 @@ nav {
 
 .product-info h3 {
     margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.product-info p {
+    font-size: 14px;
+    color: var(--light-text);
 }
 
 .price {
     font-weight: 700;
     margin-top: 10px;
-}
-
-.add-to-cart {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: var(--primary-light);
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Slider controls */
@@ -322,63 +340,116 @@ nav {
 .prev-btn:hover, .next-btn:hover {
     background-color: var(--primary-dark);
 }
-
-/* Boxes section */
+/* Our Boxes Section */
 .boxes-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
     gap: 20px;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 .box-card {
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 16px; /* Bordures arrondies */
     overflow: hidden;
     box-shadow: var(--box-shadow);
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    position: relative;
 }
 
+/* Image des boxes */
 .box-image {
-    height: 150px;
+    width: 100%;
+    height: 250px; /* Hauteur uniforme pour toutes les images */
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
+.box-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Garde l'image complète sans recadrage */
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+/* Bouton de visualisation */
+.box-card .btn {
+    display: block;
+    margin: 10px auto;
+    width: 43%;
+    text-align: center;
+}
+
+/* Étoiles de notation */
 .rating {
     color: #ffc107;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
+/* Ajustement pour petits écrans */
+@media (max-width: 992px) {
+    .boxes-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur tablettes */
+    }
+}
+
+@media (max-width: 576px) {
+    .boxes-grid {
+        grid-template-columns: 1fr; /* 1 colonne sur mobile */
+    }
+}
+
+
 /* Blog section */
+/* Blog Section */
 .blog-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes comme dans l'image */
     gap: 20px;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 .blog-card {
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 16px; /* Bordures arrondies */
     overflow: hidden;
     box-shadow: var(--box-shadow);
+    text-align: center;
 }
 
 .blog-image {
-    height: 150px;
+    width: 100%;
+    height: 250px; /* Ajuste la hauteur des images */
     overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que l'image garde ses proportions */
+    object-position: center;
+    transition: transform 0.3s ease;
 }
 
 .blog-card h3 {
     padding: 15px;
-    text-align: center;
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 600;
 }
 
+/* Bouton "See More Blogs" */
 .see-more {
     display: flex;
     justify-content: center;
@@ -392,11 +463,16 @@ nav {
     color: var(--primary-color);
     font-weight: 600;
     transition: var(--transition);
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
 }
 
 .btn-link:hover {
-    color: var(--primary-dark);
+    background-color: var(--primary-color);
+    color: var(--white);
 }
+
 
 /* Footer */
 footer {
